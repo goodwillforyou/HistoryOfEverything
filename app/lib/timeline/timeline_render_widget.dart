@@ -2,12 +2,11 @@ import 'dart:math';
 import 'dart:ui';
 import 'dart:ui' as ui;
 
-import 'package:flare_dart/actor_image.dart' as flare;
-import 'package:flare_dart/math/aabb.dart' as flare;
+import 'package:flare_flutter/base/actor_image.dart' as flare;
+import 'package:flare_flutter/base/math/aabb.dart' as flare;
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:intl/intl.dart';
-import 'package:nima/nima/actor_image.dart' as nima;
 import 'package:nima/nima/math/aabb.dart' as nima;
 import 'package:timeline/colors.dart';
 import 'package:timeline/main_menu/menu_data.dart';

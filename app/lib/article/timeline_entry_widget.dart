@@ -3,15 +3,12 @@ import 'dart:ui';
 import "dart:ui" as ui;
 
 import 'package:flare_flutter/flare.dart' as flare;
-import 'package:flare_dart/actor_image.dart' as flare;
-import 'package:flare_dart/math/aabb.dart' as flare;
-import 'package:flare_dart/math/mat2d.dart' as flare;
-import 'package:flare_dart/math/vec2d.dart' as flare;
+import 'package:flare_flutter/base/math/aabb.dart' as flare;
+import 'package:flare_flutter/base/math/vec2d.dart' as flare;
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:nima/nima.dart' as nima;
-import 'package:nima/nima/actor_image.dart' as nima;
 import 'package:nima/nima/math/aabb.dart' as nima;
 import 'package:nima/nima/math/vec2d.dart' as nima;
 import 'package:timeline/article/controllers/amelia_controller.dart';

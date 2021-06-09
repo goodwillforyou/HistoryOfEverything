@@ -5,18 +5,14 @@ import 'dart:typed_data';
 import 'dart:ui' as ui;
 
 import 'package:flare_flutter/flare.dart' as flare;
-import 'package:flare_dart/animation/actor_animation.dart' as flare;
-import 'package:flare_dart/math/aabb.dart' as flare;
-import 'package:flare_dart/math/vec2d.dart' as flare;
+import 'package:flare_flutter/base/animation/actor_animation.dart' as flare;
+import 'package:flare_flutter/base/math/aabb.dart' as flare;
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter/widgets.dart';
 import 'package:nima/nima.dart' as nima;
-import 'package:nima/nima/actor_image.dart' as nima;
-import 'package:nima/nima/animation/actor_animation.dart' as nima;
 import 'package:nima/nima/math/aabb.dart' as nima;
-import 'package:nima/nima/math/vec2d.dart' as nima;
 import 'package:timeline/timeline/timeline_utils.dart';
 
 import 'timeline_entry.dart';

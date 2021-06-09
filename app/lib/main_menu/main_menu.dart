@@ -4,7 +4,7 @@ import "dart:io";
 import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
 import "package:flutter/widgets.dart";
-import "package:share/share.dart";
+import "package:share_plus/share_plus.dart";
 import 'package:timeline/bloc_provider.dart';
 import 'package:timeline/main_menu/collapsible.dart';
 
